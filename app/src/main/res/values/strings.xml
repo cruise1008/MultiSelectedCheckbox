@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MultiSelectedCheckbox</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">筛选</string>
+
+    <!--yun e gui 右滑菜单-->
+    <string name="filtrate_clear_all">全部清空</string>
+    <string name="delivery_title">配送</string>
+    <string name="delivery_clear">清空</string>
+    <string name="delivery_date_choose">选择配送日期</string>
+    <string name="delivery_location_choose">仅限上海地区配送</string>
+    <string name="price_title">价位</string>
+    <string name="size_title">尺码</string>
+    <string name="color_title">颜色</string>
+    <string name="clothes_length_title">衣长</string>
+    <string name="sleeve_length_title">袖长</string>
+    <string name="collar_title">领口</string>
+    <string name="pop_title">流行元素</string>
+    <string name="occasion">场合</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cruise/multiselectedcheckbox/MenuRightFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cruise/multiselectedcheckbox/bean/ResourceItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cruise/multiselectedcheckbox/views/MultiSelectCheckBox.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/length_unit_selected.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/length_unit_unselected.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/single_select_chk_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/single_select_chk_bg_color.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/single_select_chk_bg_rec.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/size_unit_selected.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/size_unit_unselected.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_menu_right.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_single_select.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_single_select_color.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_single_select_rec.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_single_select_chk.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
