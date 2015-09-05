@@ -121,7 +121,6 @@ public class MenuRightFragment extends Fragment {
     }
 
 
-
     private void initView(View mView) {
 
         int checkBoxSize = 0, checkBoxClothesLength = 2; //��ѡ���type
@@ -177,10 +176,6 @@ public class MenuRightFragment extends Fragment {
 
     }
 
-
-    public void setJsonCallBack(CallBack callBack) {
-        this.mCallBack = callBack;
-    }
 
 
 
