@@ -1,4 +1,4 @@
-package com.cruise.multiselectedcheckbox;
+package com.cruise.multiselectedcheckbox.fragments;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
+import com.cruise.multiselectedcheckbox.R;
 import com.cruise.multiselectedcheckbox.bean.ResourceItem;
 import com.cruise.multiselectedcheckbox.views.MultiSelectCheckBox;
 

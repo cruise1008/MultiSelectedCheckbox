@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
+
 import com.cruise.multiselectedcheckbox.R;
 import com.cruise.multiselectedcheckbox.bean.ResourceItem;
 
@@ -16,10 +17,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by cruise on 2015/8/16.
- * 多选框
+ * Created by cruise on 2015/9/5.
+ * 单选框
  */
-public class MultiSelectCheckBox extends LinearLayout {
+public class SingleSelectCheckbox extends LinearLayout {
+
     public OnSelectListener mOnSelectListener;
     private Map<Integer, ResourceItem> mData = new HashMap<>();
     private Context mContext;
@@ -34,7 +36,7 @@ public class MultiSelectCheckBox extends LinearLayout {
     private int checkBoxType;
     private int select_count = 0;
 
-    public MultiSelectCheckBox(Context context, AttributeSet attrs) {
+    public SingleSelectCheckbox(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.mContext = context;
         this.mLayoutInflater = (LayoutInflater) context
@@ -46,7 +48,7 @@ public class MultiSelectCheckBox extends LinearLayout {
 
     }
 
-    public MultiSelectCheckBox(Context context, int type) {
+    public SingleSelectCheckbox(Context context, int type) {
         super(context);
         this.mContext = context;
         this.checkBoxType = type;
@@ -265,22 +267,21 @@ public class MultiSelectCheckBox extends LinearLayout {
     private class OnChkClickEvent implements OnClickListener {
         @Override
         public void onClick(View v) {
-                CheckBox chk = (CheckBox) v;
-                if (chk.isChecked()) {
-                    chk.setTextColor(getResources().getColor(R.color.white));
-                    select_count++;
-                } else {
-                    chk.setTextColor(getResources().getColor(R.color.black));
-                    select_count--;
-                }
+            CheckBox chk = (CheckBox) v;
+            if (chk.isChecked()) {
+                chk.setTextColor(getResources().getColor(R.color.white));
+                select_count++;
+            } else {
+                chk.setTextColor(getResources().getColor(R.color.black));
+                select_count--;
+            }
             int selectPosition = (Integer) chk.getTag();
 //                boolean isChecked = true;
 //                if (select_count == 0)
 //                    isChecked = false;
-                Boolean isChecked = chk.isChecked();
-                mOnSelectListener.onSelect(view, selectPosition, checkBoxType, isChecked, select_count);
+            Boolean isChecked = chk.isChecked();
+            mOnSelectListener.onSelect(view, selectPosition, checkBoxType, isChecked, select_count);
 
         }
     }
-
 }
